@@ -1,0 +1,55 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    max-width: 100%;
+    min-height: 100%; 
+    display: flex;
+}
+.hero{
+    background-image: url(./images/hero.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+
+.one{
+    width: 100vw;
+    height: 100vh;
+    grid-area: one;
+       margin: 0px;
+
+}
+
+.one header{
+    display: flex;
+    gap: 4px;
+    justify-content:space-between;
+    margin-top: 60px;
+   
+}
+button{
+    width: auto;
+    height: 30px;
+    background-color: rgba(35,166, 240, 255);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 20px 5px 20px;
+    cursor: pointer;
+    font-weight: 400;
+    
+}
+.one a{
+    text-decoration: none;
+    font: 600;
+    color: white;
+    gap: 2;
+}
+.title{
+    text-align: center;
+
+
+}
+

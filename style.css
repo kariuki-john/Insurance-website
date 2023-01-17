@@ -1,0 +1,470 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.hero{
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(./images/hero.png);
+    height: 80vh;
+    background-size: 100% 100%;
+}
+.navbar{
+    display: flex;
+    justify-content:space-around;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+}
+.brand, .links, .login{
+    padding-top: 30px;
+
+}
+.brand a{
+    font-size: x-large;
+    font-weight: bolder;
+}
+.links>a{
+ margin-left: 50px;
+}
+.title{
+    text-align: center;
+    color: white;
+    margin-top: 8%;
+}
+.title h1{
+    font-size: 50px;
+}
+.title p{
+    color:rgba(169,159,157,255);
+}
+.login button{
+        width: auto;
+        height: 30px;
+        background-color: rgba(35,166, 240, 255);
+        color: white;
+        border: none;
+        border-radius: 5px;
+        padding: 5px 20px 5px 20px;
+        cursor: pointer;
+        font-weight: 400;
+        margin-left: 50px;
+}
+.buttons{
+    display: flex;
+    margin-left: 40%;
+    margin-top: 25px;
+}
+.button1 button{
+    width: auto;
+    height: 30px;
+    background-color: rgba(35,166, 240, 255);
+    color: white;
+    border: none;
+    border-radius: 50px;
+    padding: 5px 20px 5px 20px;
+    cursor: pointer;
+    font-weight: 400;
+    margin-left: 50px;
+    text-decoration: none;
+    gap: 10px;
+}
+.button2 button{
+    width: auto;
+    height: 30px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    padding: 5px 20px 5px 20px;
+    cursor: pointer;
+    font-weight: 400;
+    margin-left: 50px;
+    text-decoration: none;
+    gap: 10px;
+    border: 1px solid white;
+
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 55px;
+    background-color:rgba(249,249,249,255);
+    
+}
+ .cards ion-icon{
+ color: rgba(34,166,241,255);
+ font-size: 50px; 
+ 
+}
+.card1, .card2{
+    background-color: rgba(255,255,255,255);
+    margin-top: -50px;
+    padding-left: 20px;
+    padding-right: 55px;
+    padding-bottom: 20px;
+  
+}
+.cards h2 p{
+  margin-left: 20px;
+}
+.card3{
+    background-color:rgba(34,166,241,255);
+    margin-top: -50px;
+    color: white;
+    padding-left: 30px;
+    padding-right: 55px;
+    padding-bottom: 20px;
+}
+.card1, .card2 h2{
+    color: black;
+}
+.card1, .card2, p{
+    color: rgba(201,201,200,255);
+}
+.card3 ion-icon{
+  color: white;
+}
+.card3 p{
+    color: white;
+}
+.labels{
+    display: flex;
+    margin-left: 15%;
+    gap: 11%;
+    padding: 10%;
+    text-align: center;
+    background-color: rgba(255,255,255,255);
+}
+.labels ion-icon{
+    color:rgba(35,166, 240, 255) ;
+    font-size: 50px;
+    text-align: center;
+}
+.labels h3{
+    font-weight: bold;
+}
+.profiles{
+    display: flex;
+    justify-content: center;
+}
+.profiles h1 {
+    /* text-align: center; */
+    padding-left: 82px;
+}
+.profilecard img{
+    min-height: 8vh;
+    max-width: 8vw;
+    padding: 30px;
+}
+.profilecard{
+    display: flex;
+    justify-content: center;
+    padding-top: 10%;
+    gap: 50px;
+    text-align: center;
+    background-color: rgba(250,251,251,255);
+}
+.profilecard1, .profilecard2, .profilecard3{
+    /* border: 1px solid grey; */
+    background-color: rgba(255,255,255,255);
+}
+.profilecard, .profiles{
+    background-color: rgba(250,251,251,255);
+}
+.profilecard p{
+    text-align: center;
+    padding: 10px;
+}
+.profilecard ion-icon{
+    color:rgba(242,204,3,255);
+    border: 0.5 solid rgba(242,204,3,255);
+    margin-top: 0;
+}
+.logos{
+    background-color: rgba(250,251,251,255);
+    display: flex;
+    justify-content: center;
+    gap: 55px;
+}
+.logos img{
+    padding-top: 20%;
+    height: 50px;
+    padding-bottom: 50px;
+}
+.subscribe-section {
+    padding: 50px 10px;
+    background-color: rgba(250,251,251,255);
+}
+
+.subscribe {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(
+        to right,
+        rgba(6,69,136,255),
+        rgba(21,67,137,255),
+        rgba(22,65,137,255),
+        rgba(92,49,136,255),
+        rgba(122,41,136,255),
+        rgba(187,27,137,255),
+        rgba(209,21,136,255)
+
+    );
+    padding: 20px 40px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width:60%;
+    margin-left: 20%;
+   
+}
+
+.input-group {
+    background-color: rgba(249,249,249,255);
+    display: flex;
+    gap: 0;
+    height: 40px;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.input-group input {
+    border: none;
+    outline: none;
+    padding: 0px 10px;
+    height: 100%;
+}
+
+.input-group button {
+    border: none;
+    height: 100%;
+    padding: 10px;
+    background-color: rgba(34,166,241,255);
+    /* color: rgba(249,249,249,255); */
+}
+.pricings{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(250,251,251,255);
+}
+.pricing h1{
+    /* text-align: center; */
+    margin-left: 25%;
+    padding-top: 5rem;
+}
+.mainfree{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(250,251,251,255);
+    padding-top: 80px;
+    gap: 1px;
+    padding-bottom: 5%;
+}
+.mainfree ul{
+list-style: none;
+
+}
+.free{
+    background-color: rgba(255,255,255,255);
+    border: 1px solid rgba(144,211,247,255);
+    text-align: center;
+    width: 230px;
+    height: 400px;
+    flex-flow: column;
+    display: flex;
+    padding-top:40px ;
+    border-radius: 3%;
+    padding-bottom: 3%;
+}
+.premium{
+    background-color: rgba(255,255,255,255);
+    border: 1px solid rgba(144,211,247,255);
+    width: 230px;
+    height: 400px;
+    flex-flow: column;
+    display: flex;
+    padding-top:40px ;
+    text-align: center;
+    border-radius: 3%;
+    padding-bottom: 3%;
+    
+}
+.standard{
+    background-color: rgba(36,42,66,255);
+    color: white;
+    margin-top: -10px;
+    border: 1px solid rgb(35,166,240,255);
+    width: 230px;
+    height: 400px;
+    flex-flow: column;
+    display: flex;
+    padding-top:50px ;
+    text-align: center;
+    border-radius: 3%;
+    padding-bottom: 3%;
+}
+.standard p{
+    color: white;
+}
+.left{
+   text-align: left;
+   padding-left: 20px;
+}
+.center{
+    text-align: left;
+   padding-left: 20px;
+}
+.right{
+    text-align: left;
+    padding-left: 20px;
+}
+.mainfree button{
+    width: auto;
+    height: 30px;
+    background-color: rgba(34,166,241,255);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 20px 5px 20px;
+    cursor: pointer;
+    font-weight: 400;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 50%;
+   
+  
+}
+.Branches{
+    color: white;
+    background-color:rgba(36,42,66,255);  
+    padding-left: 10%;
+    padding: 4%;
+    gap: 10%;
+   
+}
+.Branches p{
+    width: 55%;
+}
+.maps{
+    display: flex;
+    background-color:rgba(36,42,66,255);
+    padding: 5%;
+    height: 70vh;
+    
+}
+.map img{
+    max-height: 80vh;
+    max-width: 30vw;
+     padding-top: 5%;
+}
+.appointment{
+    display: flex;
+    margin: auto;
+    height: 400px;
+    width: 50%;
+    justify-content: center;
+    background-color: rgba(250,251,251,255);
+}
+.book{
+    display: flex;
+    margin: -200px 0px 0px 0px;
+    height: 600px;
+    width: 100%;
+    justify-content: center;
+}
+.appointment-image img{
+    height: 100%;
+    width: 100%;
+}
+.form{
+    height: 100%;
+    width: 90%;
+    background-color: rgba(255,255,255,255);
+    padding: 0px 10px 0px 10px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+}
+.form h1{
+    font-weight: 600;
+    text-align: center;
+    font-size: 20px;
+}
+.form form{
+    margin-bottom: 40px;
+    display: flex;
+    flex-flow: column;
+    gap: 10px;
+}
+.form input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgba(238,239,239,255);
+    box-sizing: border-box;
+    border-radius: 5px;
+    color: rgba(198,199,198,255);
+  }
+  
+ .form input[type=submit] {
+    width: 100%;
+    background-color: rgba(34,166,241,255);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  .mainfooter{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+    background-color: rgba(250,251,251,255);
+  }
+  .contactbutton button{
+    width: auto;
+    height: 30px;
+    background-color: rgba(34,166,241,255);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 20px 5px 20px;
+    cursor: pointer;
+    font-weight: 400;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 50%;
+  }
+  .details{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-right: 12%;
+    padding-left: 12%;
+    background-color: rgba(255,255,255,255);
+
+  }
+  .details ul li{
+    list-style: none;
+    margin: 5px;
+    color: rgba(191,191,191,255);
+  }
+  .intouch ion-icon{
+    color: rgba(34,166,241,255) ;
+   
+  }
+  .endfooter{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5%;
+    background-color: rgba(250,251,251,255);
+  }
+  .endfooter ion-icon{
+    color:rgba(34,166,241,255);
+    gap:5px;
+  }
+  
+ 
+
