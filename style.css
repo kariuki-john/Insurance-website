@@ -58,6 +58,14 @@
 .title p{
     color:rgba(169,159,157,255);
 }
+
+@media screen and (max-width:767px){
+   .title{
+    align-items: center;
+   }
+}
+
+
 .login button{
         width: auto;
         height: 30px;
@@ -76,11 +84,12 @@
     margin-top: 25px;
 }
 @media screen and (max-width:1023px){
-  .butttons{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
+    .buttons{
+     display: flex;
+     flex-direction: column;
+     margin-top: 10px;
+        
+    }
 }
 .button1 button{
     width: auto;
@@ -119,6 +128,7 @@
     background-color:rgba(249,249,249,255);
     
 }
+
  .cards ion-icon{
  color: rgba(34,166,241,255);
  font-size: 50px; 
@@ -182,14 +192,11 @@
     display: flex;
     justify-content: center;
 }
-@media screen and (max-width:1023px) {
-    .profilecard {
-        display: grid;
-        grid-column: auto;
-        gap: 2rem;
-        
+@media screen and (max-width:1023px){
+    .profilecard{
+       display: flex;
+       flex-direction: column; 
     }
-    
 }
 .profiles h1 {
     /* text-align: center; */
@@ -381,6 +388,7 @@ list-style: none;
 @media screen and (max-width:1023px){
    .mainfree{
     display: block;
+    padding-left: 60px;
    }
    .pricing h1 p{
     display: flex;
@@ -453,6 +461,16 @@ list-style: none;
     width: 50%;
     justify-content: center;
     background-color: rgba(250,251,251,255);
+}
+@media screen and (max-width:1023px){
+    .book{
+        display: flex;
+        flex-direction: column;
+    }
+    .appointment-image{
+        height: 30%;
+        width: auto;
+    }
 }
 .book{
     display: flex;
