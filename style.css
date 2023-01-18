@@ -15,6 +15,24 @@
     text-decoration: none;
     color: white;
 }
+@media screen and (max-width:1023px){
+    .navbar{
+         display: grid;
+         justify-content: start;
+    }
+    .login button{
+        justify-content: left;
+        display: block;
+        
+    }
+    .button1.button2{
+        display: flex;
+        flex-direction: column;
+        float: left;
+        justify-content: left;
+    }
+    
+}
 .brand, .links, .login{
     padding-top: 30px;
 
@@ -53,6 +71,13 @@
     display: flex;
     margin-left: 40%;
     margin-top: 25px;
+}
+@media screen and (max-width:1023px){
+  .butttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 }
 .button1 button{
     width: auto;
@@ -127,6 +152,13 @@
 .card3 p{
     color: white;
 }
+@media screen and (max-width:1023px) {
+    .cards{
+       display: flex;
+       flex-direction: column;        
+    }
+    
+}
 .labels{
     display: flex;
     margin-left: 15%;
@@ -146,6 +178,15 @@
 .profiles{
     display: flex;
     justify-content: center;
+}
+@media screen and (max-width:1023px) {
+    .profilecard {
+        display: grid;
+        grid-column: auto;
+        gap: 2rem;
+        
+    }
+    
 }
 .profiles h1 {
     /* text-align: center; */
@@ -180,6 +221,15 @@
     border: 0.5 solid rgba(242,204,3,255);
     margin-top: 0;
 }
+@media screen and (max-width:1023px) {
+    .labels{
+        display: grid;
+        grid-column: auto;
+        gap: 5rem;
+        
+    }
+    
+}
 .logos{
     background-color: rgba(250,251,251,255);
     display: flex;
@@ -191,9 +241,28 @@
     height: 50px;
     padding-bottom: 50px;
 }
+@media screen and (max-width:1023px) {
+    .logos{
+        gap:0.5rem;
+        max-height: auto;
+       max-width: auto;
+        
+    }
+    .logos img{
+        max-height: 5%;
+        max-width: 15%;
+    }
+    
+}
 .subscribe-section {
     padding: 50px 10px;
     background-color: rgba(250,251,251,255);
+}
+@media screen and (max-width:1023px){
+    .subscribe-section {
+        display: flex;
+        flex-wrap: wrap;              
+    }
 }
 
 .subscribe {
@@ -306,6 +375,18 @@ list-style: none;
 .standard p{
     color: white;
 }
+@media screen and (max-width:1023px){
+   .mainfree{
+    display: block;
+   }
+   .pricing h1 p{
+    display: flex;
+    align-items: center;
+   }
+   .pricing p{
+    margin-left: 20px;
+   }
+}
 .left{
    text-align: left;
    padding-left: 20px;
@@ -349,8 +430,13 @@ list-style: none;
     display: flex;
     background-color:rgba(36,42,66,255);
     padding: 5%;
-    height: 70vh;
-    
+    height: 70vh;    
+}
+@media screen and (max-width:1023px){
+    .maps{
+        display: flex;
+        flex-wrap: wrap;
+    }  
 }
 .map img{
     max-height: 80vh;
@@ -417,6 +503,19 @@ list-style: none;
     border: none;
     cursor: pointer;
   }
+  @media  screen and (max-width:1023px) {
+    .appointment-image{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+  }
+  @media screen and (max-width:1023px){
+    .book{
+        display: flex;
+      
+    }
+    }
   .mainfooter{
     display: flex;
     justify-content: space-around;
@@ -437,6 +536,14 @@ list-style: none;
     margin-right: 30px;
     margin-bottom: 50%;
   }
+  @media screen and (max-width:1023px){
+    .mainfooter{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    }
+  
   .details{
     display: flex;
     justify-content: space-around;
@@ -455,6 +562,14 @@ list-style: none;
     color: rgba(34,166,241,255) ;
    
   }
+  @media screen and (max-width:1023px){
+    .details{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 60px;
+    }
+    }
   .endfooter{
     display: flex;
     justify-content: space-around;
@@ -463,7 +578,7 @@ list-style: none;
   }
   .endfooter ion-icon{
     color:rgba(34,166,241,255);
-    gap:5px;
+    padding: 2%;
   }
   
  
