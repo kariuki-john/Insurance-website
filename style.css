@@ -3,7 +3,7 @@
     padding: 0px;
 }
 .hero{
-    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(./images/hero.png);
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(hero.png);
     height: 80vh;
     background-size: 100% 100%;
 }
