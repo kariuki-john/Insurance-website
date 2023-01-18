@@ -2,6 +2,9 @@
     margin: 0px;
     padding: 0px;
 }
+.container{
+    justify-content: center;
+}
 .hero{
     background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(hero.png);
     height: 80vh;
